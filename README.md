@@ -34,11 +34,11 @@ A step-by-step series of examples that tell you how to get the environment runni
 4. Run the steps of the code by either using the shift + enter option on the keyboard or by clicking the play button on the toolbar.
 
 # Explaining Code in Brief
-# Installing the libraries
+## Installing the libraries
 Install these required libraries using pip
-# Breakdown of Neural Network Classifier 
+### Breakdown of Neural Network Classifier 
 Among the options, the following are selected: hidden_layer_sizes=(5, 4, 5) activation='relu' solver='adam' max_iter=10000 random_state=100 The performance of the model is assessed through the confusion matrix and the classification report.el using a confusion matrix and classification report.
-# Decision Tree Classifier
+### Decision Tree Classifier
 Using DecisionTreeClassifier with argument random_state = 100. These metrics are confusion matrix and classification report in order to evaluate the model performance.
 
 ## Contributing
