@@ -6,7 +6,7 @@ Neural Networks is a category of machine learning that tries to emulate the lear
 
 The following instructions will guide you to get this project running on your local machine. Ideally, the students should already have some level of programming competency, with Python being a desirable programming language. I have provided you with guidelines on how to deploy the project in a live system in the deployment section of this document.
 
-### Prerequisites
+#Prerequisites
 
 What things do you need to install the software and how to install them
 
@@ -16,7 +16,7 @@ What things do you need to install the software and how to install them
 3. DATASET TO RUN THE NEURAL NETWORK ALGORITHM
 ```
 
-### Installing
+# Installation 
 
 A step-by-step series of examples that tell you how to get the environment running
 
@@ -26,30 +26,30 @@ A step-by-step series of examples that tell you how to get the environment runni
 4. Click on the icon and launch the Anaconda application from your startup menu and select jupyter notebook from the options that appear.
 5. Otherwise, users can enter ‘Jupyter Notebook’ into the search engine on the search bar of the operating system and then open it.
 
-## Running the code
+# Code Execution
 
 1. Use a clone command that is Git clone “the web URL” available by going to the Code option as a dropdown button.
 2. The user can also choose the download zip option if the Git is not installed on the system.
 3. Navigate to the Jupyter Notebook opened in your browser, browse the cloned or downloaded folder and double click on Assignment4-100942268-Intro to Data.ipynb.
 4. Run the steps of the code by either using the shift + enter option on the keyboard or by clicking the play button on the toolbar.
 
-## Brief Code Explanation
-### Installing 
+# Explaining Code in Brief
+# Installing the libraries
 Install these required libraries using pip
-### Breakdown of Neural Network Classifier 
-Uses MLPClassifier with the following parameters:  hidden_layer_sizes=(5, 4, 5)  activation='relu' solver='adam'  max_iter=10000  random_state=100 o Evaluates the model using a confusion matrix and classification report.
-### Decision Tree Classifier
-Uses DecisionTreeClassifier with random_state=100. Evaluates the model using a confusion matrix and classification report.
+# Breakdown of Neural Network Classifier 
+Among the options, the following are selected: hidden_layer_sizes=(5, 4, 5) activation='relu' solver='adam' max_iter=10000 random_state=100 The performance of the model is assessed through the confusion matrix and the classification report.el using a confusion matrix and classification report.
+# Decision Tree Classifier
+Using DecisionTreeClassifier with argument random_state = 100. These metrics are confusion matrix and classification report in order to evaluate the model performance.
 
 ## Contributing
 
-Contributions from the community are welcome! If you'd like to contribute to this project, please follow these guidelines:
+So, it is crucial to conclude that everyone can contribute to research to support the ideas of community members. If you'd like to contribute to this project, please follow these guidelines:
 
 1. Fork this repository.
-2. Create a new branch for your contribution.
-3. Make your changes and improvements.
+2. Open a new branch for your contribution.
+3. Revise and edit your documents or articles.
 4. Test your changes thoroughly.
-5. Create a pull request (PR) with a clear description of your contribution.
+5. Submit a pull request (PR) with a description of your change in details.
 
 
 ## Authors
