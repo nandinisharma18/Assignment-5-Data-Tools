@@ -6,7 +6,7 @@ Neural Networks is a category of machine learning that tries to emulate the lear
 
 The following instructions will guide you to get this project running on your local machine. Ideally, the students should already have some level of programming competency, with Python being a desirable programming language. I have provided you with guidelines on how to deploy the project in a live system in the deployment section of this document.
 
-#Prerequisites
+# Prerequisites
 
 What things do you need to install the software and how to install them
 
