@@ -28,7 +28,7 @@ A step-by-step series of examples that tell you how to get the environment runni
 
 # Code Execution
 
-1. Use a clone command that is Git clone “the web URL” available by going to the Code option as a dropdown button.
+1. Use a clone command that is Git clone ```git clone "the web URL"``` available by going to the Code option as a dropdown button.
 2. The user can also choose the download zip option if the Git is not installed on the system.
 3. Navigate to the Jupyter Notebook opened in your browser, browse the cloned or downloaded folder and double click on Assignment4-100942268-Intro to Data.ipynb.
 4. Run the steps of the code by either using the shift + enter option on the keyboard or by clicking the play button on the toolbar.
