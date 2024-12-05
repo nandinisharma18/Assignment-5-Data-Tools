@@ -45,25 +45,36 @@ If you prefer, you can search for "Jupyter Notebook" directly in your computer's
 
 ### Step 1: Clone the Repository (If Git is Installed)
 i. Open your command prompt (Windows) or terminal (Mac/Linux).
+
 ii. Use the git clone command to copy the project files onto your computer. 
+
 This will create a folder on your computer containing all the project files.
 
 ### Step 2: Download as a ZIP File (If Git is Not Installed)
 i. If Git is not installed, don’t worry! You can download the project files directly.
+
 ii. Go to the repository page in your browser and find the Code button (usually a green dropdown button).
+
 iii. Click the Code button and select Download ZIP from the dropdown menu.
+
 iv. Save the ZIP file to your computer and extract it to a folder using any file extractor (e.g., Windows File Explorer or macOS Archive Utility).
 
 ### Step 3: Open Jupyter Notebook
 i. Launch Jupyter Notebook by opening Anaconda Navigator and clicking on the Jupyter Notebook option. This will open Jupyter in your default web browser.
+
 ii. In the Jupyter Notebook interface, navigate to the folder where you cloned or extracted the project files.
+
 iii. Find the file named Assignment4-100942268-Intro to Data.ipynb and double-click it to open it.
 
 ### Step 4: Run the Code
 i. Once the notebook is open, you will see blocks of code called cells.
+
 ii. To execute a cell, click inside it and either:
+
 Press Shift + Enter on your keyboard, or
+
 Click the Play button in the toolbar at the top of the page.
+
 iii. Follow this process for each cell, running them one by one in the order they appear.
 
 # Explaining Code in Brief
