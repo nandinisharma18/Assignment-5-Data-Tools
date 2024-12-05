@@ -43,28 +43,56 @@ If you prefer, you can search for "Jupyter Notebook" directly in your computer's
 
 # Code Execution
 
-1. Use a clone command that is Git clone ```git clone "the web URL"``` available by going to the Code option as a dropdown button.
-2. The user can also choose the download zip option if the Git is not installed on the system.
-3. Navigate to the Jupyter Notebook opened in your browser, browse the cloned or downloaded folder and double click on Assignment4-100942268-Intro to Data.ipynb.
-4. Run the steps of the code by either using the shift + enter option on the keyboard or by clicking the play button on the toolbar.
+### Step 1: Clone the Repository (If Git is Installed)
+i. Open your command prompt (Windows) or terminal (Mac/Linux).
+ii. Use the git clone command to copy the project files onto your computer. 
+This will create a folder on your computer containing all the project files.
+
+### Step 2: Download as a ZIP File (If Git is Not Installed)
+i. If Git is not installed, don’t worry! You can download the project files directly.
+ii. Go to the repository page in your browser and find the Code button (usually a green dropdown button).
+iii. Click the Code button and select Download ZIP from the dropdown menu.
+iv. Save the ZIP file to your computer and extract it to a folder using any file extractor (e.g., Windows File Explorer or macOS Archive Utility).
+
+### Step 3: Open Jupyter Notebook
+i. Launch Jupyter Notebook by opening Anaconda Navigator and clicking on the Jupyter Notebook option. This will open Jupyter in your default web browser.
+ii. In the Jupyter Notebook interface, navigate to the folder where you cloned or extracted the project files.
+iii. Find the file named Assignment4-100942268-Intro to Data.ipynb and double-click it to open it.
+
+### Step 4: Run the Code
+i. Once the notebook is open, you will see blocks of code called cells.
+ii. To execute a cell, click inside it and either:
+Press Shift + Enter on your keyboard, or
+Click the Play button in the toolbar at the top of the page.
+iii. Follow this process for each cell, running them one by one in the order they appear.
 
 # Explaining Code in Brief
 ## Installing the libraries
 Install these required libraries using pip
 ### Breakdown of Neural Network Classifier 
-Among the options, the following are selected: hidden_layer_sizes=(5, 4, 5) activation='relu' solver='adam' max_iter=10000 random_state=100 The performance of the model is assessed through the confusion matrix and the classification report.el using a confusion matrix and classification report.
+Among the options, the following are selected: hidden_layer_sizes=(5, 4, 5) balancing model complexity, activation='relu'allows faster training by preventing the vanishing gradient problem, solver='adam'optimizer adapts the learning rate, requiring minimal tuning, max_iter=10000 which means training runs for up to 10,000 iterations, stopping early if the model converges, random_state=100 ensures reproducibility by controlling random number generation. The performance of the model is assessed through the confusion matrix and the classification report.el using a confusion matrix and classification report.
 ### Decision Tree Classifier
-Using DecisionTreeClassifier with argument random_state = 100. These metrics are confusion matrix and classification report in order to evaluate the model performance.
+The DecisionTreeClassifier is set with random_state=100 for reproducibility, ensuring consistent results across runs.
+
+Model performance is evaluated using two key metrics:
+
+i. Confusion Matrix: This shows the comparison between predicted and actual values, highlighting true positives, true negatives, false positives, and false negatives.
+
+ii. Classification Report: This includes precision (accuracy of positive predictions), recall (ability to identify positive cases), and F1-score (balance between precision and recall), along with support (class distribution).
 
 ## Contributing
 
 So, it is crucial to conclude that everyone can contribute to research to support the ideas of community members. If you'd like to contribute to this project, please follow these guidelines:
 
-1. Fork this repository.
-2. Open a new branch for your contribution.
-3. Revise and edit your documents or articles.
-4. Test your changes thoroughly.
-5. Submit a pull request (PR) with a description of your change in details.
+i. Fork the repository: Create a personal copy of the project repository to work on.
+
+ii. Create a new branch: For each contribution, start by creating a new branch to make your changes, ensuring the main branch remains stable.
+
+iii. Make your changes: Edit the necessary documents, code, or content to improve the project.
+
+iv. Test your changes: Thoroughly test your updates to ensure they work as expected and do not introduce errors.
+
+v. Submit a pull request (PR): Once you're confident with your changes, submit a pull request and provide a clear description of the modifications you've made.
 
 
 ## Authors
