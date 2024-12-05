@@ -69,11 +69,7 @@ iii. Find the file named Assignment4-100942268-Intro to Data.ipynb and double-cl
 ### Step 4: Run the Code
 i. Once the notebook is open, you will see blocks of code called cells.
 
-ii. To execute a cell, click inside it and either:
-
-Press Shift + Enter on your keyboard, or
-
-Click the Play button in the toolbar at the top of the page.
+ii. To execute a cell, click inside it and either: Press Shift + Enter on your keyboard, or Click the Play button in the toolbar at the top of the page.
 
 iii. Follow this process for each cell, running them one by one in the order they appear.
 
