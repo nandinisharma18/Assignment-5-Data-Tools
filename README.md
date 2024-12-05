@@ -1,10 +1,13 @@
 # Assignment-5-Data-Tools
 
-Neural Networks is a category of machine learning that tries to emulate the learning behavior of the real biological neural networks. Neural networks in the biological point of view have neurons with dendrites which receives input and using its axon it produces an output signal to another neuron. We will attempt to duplicate this through the use of a class of algorithms known as Artificial Neural Networks (ANN), which will be abbreviated to neural networks. Neural networks creation process is divided into steps where one has to start from the least complex type of neural network which is the single perceptron.
+Neural Networks, inspired by biological neural networks, mimic the way the brain processes information. In the brain, neurons receive inputs via dendrites, integrate them in the cell body, and transmit outputs through axons to other neurons. Artificial Neural Networks (ANNs) replicate this using interconnected nodes, where each node processes inputs, applies a weighted sum and bias, passes the result through an activation function, and produces an output. These nodes are organized into layers: an input layer for raw data, hidden layers for transformations, and an output layer for predictions.
+
+The simplest ANN, the single-layer perceptron, models linear relationships. Each neuron in the perceptron calculates a weighted sum of inputs and applies an activation function to determine the output. While effective for simple tasks, perceptrons are limited to linear problems, driving the evolution of multi-layer networks capable of handling complex, non-linear data, forming the backbone of modern deep learning systems.
 
 ## Getting Started
 
-The following instructions will guide you to get this project running on your local machine. Ideally, the students should already have some level of programming competency, with Python being a desirable programming language. I have provided you with guidelines on how to deploy the project in a live system in the deployment section of this document.
+This document provides step-by-step instructions to help you set up and execute the project on your local machine. It is assumed that users have a foundational knowledge of programming, with Python being the preferred programming language for this project. For students or users without prior Python experience, it is advised to familiarize themselves with the basics of Python before proceeding. Along with setup instructions, this document includes a detailed section on how to deploy the project in a live system, providing insights into ensuring smooth integration and functionality in real-world environments. These deployment guidelines will help you transition the project from a development setup to a fully operational state.
+
 
 ## Prerequisites
 
@@ -18,13 +21,25 @@ What things do you need to install the software and how to install them
 
 # Installation 
 
-A step-by-step series of examples that tell you how to get the environment running
+To set up your environment, follow these simple steps:
 
-1. Go to the website https:> //www.anaconda.com/download/success
-2. Get the installer package based on your operating system of choice, which can be either Windows, Linux or macOS.
-3. After this step, it is important to install the software that you have downloaded.
-4. Click on the icon and launch the Anaconda application from your startup menu and select jupyter notebook from the options that appear.
-5. Otherwise, users can enter ‘Jupyter Notebook’ into the search engine on the search bar of the operating system and then open it.
+### Go to the Anaconda website:
+Open your web browser and visit https://www.anaconda.com/download. This is where you can find the software needed for this project.
+
+### Download the installer:
+On the download page, choose the version that matches your operating system. You can select Windows, macOS, or Linux depending on the computer you are using. Once selected, click the download button to save the installer file to your computer.
+
+### Install Anaconda:
+After the file is downloaded, locate it in your "Downloads" folder and double-click on it to start the installation. Follow the on-screen instructions. You can keep the default settings unless you have specific preferences.
+
+### Open the Anaconda application:
+Once the installation is complete, look for the Anaconda application in your system. On Windows, you can find it in the Start Menu. On macOS or Linux, use the search feature to locate "Anaconda Navigator."
+
+### Launch Jupyter Notebook:
+Inside Anaconda Navigator, you will see several tools. Find and click on "Jupyter Notebook." This will open a new tab in your default web browser.
+
+### Alternative way to open Jupyter Notebook:
+If you prefer, you can search for "Jupyter Notebook" directly in your computer's search bar and click on it to open.
 
 # Code Execution
 
